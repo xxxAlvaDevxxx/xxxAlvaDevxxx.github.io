@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"dev": "esbuild --bundle --watch ./src/index.ts --outfile=./public/out.js --minify",
+		"build": "esbuild --bundle ./src/index.ts --outfile=./public/out.js --minify"
+	},
+	"dependencies": {
+		"esbuild": "^0.20.2",
+		"xxx-element": "1.7.1-dev.3"
+	}
+}
