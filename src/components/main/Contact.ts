@@ -10,7 +10,7 @@ class Contact extends $section implements MainFeature {
     this.addChildren(this.$title, this.$detail, this.$socialLinks);
 
     // GitHub
-    this.addLink("https://github.com/xxxAlvaDevxxx", "GitHub", "GitHub-logo.svg", "GitHub logo");
+    this.addLink("https://github.com/xxxAlvaDevxxx", "GitHub", "Github-logo.svg", "GitHub logo");
     // X
     this.addLink("https://x.com/___DonThomas", "X", "X-logo.webp", "X logo");
     // Instagram
@@ -23,9 +23,9 @@ class Contact extends $section implements MainFeature {
     // YouTube
     this.addLink(
       "https://www.youtube.com/@___DonThomas",
-      "YouTube",
-      "YouTube-Logo.png",
-      "YouTube logo"
+      "Youtube",
+      "Youtube-logo.png",
+      "Youtube logo"
     );
     // Product Hunt
     this.addLink(
